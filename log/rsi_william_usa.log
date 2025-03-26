@@ -1,0 +1,186 @@
+2025-01-09 14:23:55 - INFO - Trading bot with RSI and Williams %R started.
+2025-01-09 14:23:56 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-01-09 14:24:24 - INFO - Trading bot with RSI and Williams %R started.
+2025-01-09 14:24:25 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-01-09 14:24:25 - INFO - Telegram message sent: Trading bot with RSI and Williams %R started.
+2025-01-09 14:24:28 - INFO - Data check completed. Waiting for 10 minutes...
+2025-01-09 14:24:28 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<send_heartbeat() done, defined at /Users/lending/Code/my/trade_bot/rsi-william-usa/message/telegram_message.py:15> exception=NameError("name 'time' is not defined")>
+Traceback (most recent call last):
+  File "/Users/lending/Code/my/trade_bot/rsi-william-usa/message/telegram_message.py", line 16, in send_heartbeat
+    last_heartbeat_time = time.time()
+                          ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-03-26 09:18:10 - INFO - Trading bot with RSI and Williams %R started.
+2025-03-26 09:18:11 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 09:18:11 - INFO - Telegram message sent: Trading bot with RSI and Williams %R started.
+2025-03-26 09:18:13 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:13 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:13 - ERROR - Error processing AAPL: name 'logging' is not defined
+2025-03-26 09:18:14 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:14 - ERROR - ['NVDA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:14 - ERROR - Error processing NVDA: name 'logging' is not defined
+2025-03-26 09:18:15 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:15 - ERROR - ['MSFT']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:15 - ERROR - Error processing MSFT: name 'logging' is not defined
+2025-03-26 09:18:16 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:16 - ERROR - ['GOOG']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:16 - ERROR - Error processing GOOG: name 'logging' is not defined
+2025-03-26 09:18:17 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:17 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:17 - ERROR - Error processing AMZN: name 'logging' is not defined
+2025-03-26 09:18:18 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:18 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:18 - ERROR - Error processing TSLA: name 'logging' is not defined
+2025-03-26 09:18:19 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:19 - ERROR - ['AVGO']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:19 - ERROR - Error processing AVGO: name 'logging' is not defined
+2025-03-26 09:18:20 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:20 - ERROR - ['LLY']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:20 - ERROR - Error processing LLY: name 'logging' is not defined
+2025-03-26 09:18:21 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:21 - ERROR - ['WMT']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:21 - ERROR - Error processing WMT: name 'logging' is not defined
+2025-03-26 09:18:22 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:22 - ERROR - ['JPM']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:22 - ERROR - Error processing JPM: name 'logging' is not defined
+2025-03-26 09:18:23 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:23 - ERROR - ['XOM']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:23 - ERROR - Error processing XOM: name 'logging' is not defined
+2025-03-26 09:18:24 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:24 - ERROR - ['ORCL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:24 - ERROR - Error processing ORCL: name 'logging' is not defined
+2025-03-26 09:18:25 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:25 - ERROR - ['NFLX']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:25 - ERROR - Error processing NFLX: name 'logging' is not defined
+2025-03-26 09:18:26 - ERROR - 
+1 Failed download:
+2025-03-26 09:18:26 - ERROR - ['BAC']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:18:26 - ERROR - Error processing BAC: name 'logging' is not defined
+2025-03-26 09:18:26 - INFO - Data check completed. Waiting for 10 minutes...
+2025-03-26 09:49:51 - INFO - Trading bot with RSI and Williams %R started.
+2025-03-26 09:49:52 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 09:49:52 - INFO - Telegram message sent: Trading bot with RSI and Williams %R started.
+2025-03-26 09:49:54 - ERROR - 
+1 Failed download:
+2025-03-26 09:49:54 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:49:54 - ERROR - Error processing AAPL: name 'logging' is not defined
+2025-03-26 09:49:55 - ERROR - 
+1 Failed download:
+2025-03-26 09:49:55 - ERROR - ['NVDA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:49:55 - ERROR - Error processing NVDA: name 'logging' is not defined
+2025-03-26 09:49:56 - ERROR - 
+1 Failed download:
+2025-03-26 09:49:56 - ERROR - ['MSFT']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:49:56 - ERROR - Error processing MSFT: name 'logging' is not defined
+2025-03-26 09:49:57 - ERROR - 
+1 Failed download:
+2025-03-26 09:49:57 - ERROR - ['GOOG']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:49:57 - ERROR - Error processing GOOG: name 'logging' is not defined
+2025-03-26 09:49:58 - ERROR - 
+1 Failed download:
+2025-03-26 09:49:58 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:49:58 - ERROR - Error processing AMZN: name 'logging' is not defined
+2025-03-26 09:49:59 - ERROR - 
+1 Failed download:
+2025-03-26 09:49:59 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:49:59 - ERROR - Error processing TSLA: name 'logging' is not defined
+2025-03-26 09:50:00 - ERROR - 
+1 Failed download:
+2025-03-26 09:50:00 - ERROR - ['AVGO']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:50:00 - ERROR - Error processing AVGO: name 'logging' is not defined
+2025-03-26 09:50:01 - ERROR - 
+1 Failed download:
+2025-03-26 09:50:01 - ERROR - ['LLY']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:50:01 - ERROR - Error processing LLY: name 'logging' is not defined
+2025-03-26 09:50:02 - ERROR - 
+1 Failed download:
+2025-03-26 09:50:02 - ERROR - ['WMT']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:50:02 - ERROR - Error processing WMT: name 'logging' is not defined
+2025-03-26 09:50:03 - ERROR - 
+1 Failed download:
+2025-03-26 09:50:03 - ERROR - ['JPM']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:50:03 - ERROR - Error processing JPM: name 'logging' is not defined
+2025-03-26 09:50:04 - ERROR - 
+1 Failed download:
+2025-03-26 09:50:04 - ERROR - ['XOM']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 09:50:04 - ERROR - Error processing XOM: name 'logging' is not defined
+2025-03-26 10:39:08 - INFO - Trading bot with RSI and Williams %R started.
+2025-03-26 10:39:09 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:39:09 - INFO - Telegram message sent: Trading bot with RSI and Williams %R started.
+2025-03-26 10:41:24 - INFO - Trading bot with RSI and Williams %R started.
+2025-03-26 10:41:25 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:41:25 - INFO - Telegram message sent: Trading bot with RSI and Williams %R started.
+2025-03-26 10:41:30 - ERROR - Error processing AAPL: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing NVDA: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing MSFT: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing GOOG: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing AMZN: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing TSLA: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing AVGO: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing LLY: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing WMT: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing JPM: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing XOM: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing ORCL: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing NFLX: 'High'
+2025-03-26 10:41:30 - ERROR - Error processing BAC: 'High'
+2025-03-26 10:41:30 - INFO - Data check completed. Waiting for 10 minutes...
+2025-03-26 10:41:30 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:41:30 - INFO - Telegram message sent: ✅ Heartbeat: Monitoring is running.
+2025-03-26 10:41:30 - INFO - Heartbeat message sent.
+2025-03-26 10:42:58 - INFO - Trading bot with RSI and Williams %R started.
+2025-03-26 10:42:59 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:42:59 - INFO - Telegram message sent: Trading bot with RSI and Williams %R started.
+2025-03-26 10:43:04 - ERROR - Error processing AAPL: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing NVDA: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing MSFT: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing GOOG: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing AMZN: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing TSLA: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing AVGO: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing LLY: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing WMT: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing JPM: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing XOM: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing ORCL: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing NFLX: 'High'
+2025-03-26 10:43:04 - ERROR - Error processing BAC: 'High'
+2025-03-26 10:43:04 - INFO - Data check completed. Waiting for 10 minutes...
+2025-03-26 10:43:04 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:43:04 - INFO - Telegram message sent: ✅ Heartbeat: Monitoring is running.
+2025-03-26 10:43:04 - INFO - Heartbeat message sent.
+2025-03-26 10:49:21 - INFO - Trading bot with RSI and Williams %R started.
+2025-03-26 10:49:22 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:49:22 - INFO - Telegram message sent: Trading bot with RSI and Williams %R started.
+2025-03-26 10:49:27 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:49:27 - INFO - Telegram message sent: [Buy Signal] WMT - 2025-03-25:
+Williams %R: -92.78, RSI: 24.48
+Price: $84.76
+2025-03-26 10:49:27 - INFO - [Buy Signal] WMT - 2025-03-25:
+Williams %R: -92.78, RSI: 24.48
+Price: $84.76
+2025-03-26 10:49:27 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:49:27 - INFO - Telegram message sent: [Sell Signal] XOM - 2025-03-25:
+Williams %R: -7.91, RSI: 80.22
+Price: $116.59
+2025-03-26 10:49:27 - INFO - [Sell Signal] XOM - 2025-03-25:
+Williams %R: -7.91, RSI: 80.22
+Price: $116.59
+2025-03-26 10:49:27 - INFO - Data check completed. Waiting for 10 minutes...
+2025-03-26 10:49:28 - INFO - HTTP Request: POST https://api.telegram.org/bot7587302694:AAEimmFfxDpYFXSo1thkDl9grUPOoZvrzAM/sendMessage "HTTP/1.1 200 OK"
+2025-03-26 10:49:28 - INFO - Telegram message sent: ✅ Heartbeat: Monitoring is running.
+2025-03-26 10:49:28 - INFO - Heartbeat message sent.
